@@ -12,7 +12,8 @@ Feature: Sauce Demo login
     When user enters valid username
     And user leaves password empty
     And click on login button
-    Then I validate that "Epic sadface: Password is required" message is displayed
+#    To fail the step, I put dots after "required..."
+    Then I validate that "Epic sadface: Password is required..." message is displayed
 
   Scenario: invalid login
     When user enters invalid username as "random_username"
