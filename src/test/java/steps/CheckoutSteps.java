@@ -1,7 +1,7 @@
 package steps;
 
-import com.neotech.utils.CommonMethods;
-import com.neotech.utils.ConfigsReader;
+import utils.CommonMethods;
+import utils.ConfigsReader;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
